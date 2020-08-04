@@ -1,0 +1,37 @@
+.header {
+  overflow: hidden;
+  background-color: #FDFDFD;
+  position: fixed;
+  top: 0;
+	width: 99%;
+	padding: 20px;
+  left: 0;
+  color: white;
+  -webkit-box-shadow: 0px 10px 23px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 23px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 23px 0px rgba(0,0,0,0.75);
+}
+
+.header .item {
+  float: right;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.body {
+	margin-top: 7%;
+}
+
+.checkout > img {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 20px;
+}

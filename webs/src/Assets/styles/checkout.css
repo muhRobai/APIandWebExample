@@ -1,0 +1,16 @@
+.content {
+    box-shadow: 0 8px 6px -6px black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+.btn {
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    padding: 15px 50px 15px 50px;
+}

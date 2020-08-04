@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card-item {
+	padding: 20px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 20px;
+	box-shadow: 0 8px 6px -6px black;
+	display: flex;
+	flex-direction: column;
+	border: 0.2px solid #aaaaaa;
+}
+
+.card-text {
+	padding-top: 20px;
+	height: 80px;
+}
+
+.card-footer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: 0px;
+}
+
+.card-footer .text {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.card-footer > img {
+	width: 30px;
+	height: 30px;
+}
